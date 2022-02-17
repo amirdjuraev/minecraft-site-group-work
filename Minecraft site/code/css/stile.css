@@ -1,0 +1,241 @@
+    header {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: rgba(0, 238, 255, 0.726);
+        z-index: 1;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    .red {
+        color: rgb(47, 0, 255);
+        text-decoration: none;
+        padding: 20px 70px;
+    }
+    
+    .red:hover,
+    .persons:hover,
+    .persons2:hover {
+        background-color: aquamarine;
+    }
+    
+    .red:active,
+    .persons:active,
+    .persons2:active {
+        background-color: aquamarine;
+        color: aquamarine;
+    }
+    
+    .persons2,
+    .persons {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    body {
+        background-image: url('/resourses/fon.jpg');
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+    
+    .abbb {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .about1 {
+        background-color: rgba(0, 255, 255, 0.295);
+        border: 2px solid rgba(92, 49, 49, 0.37);
+        height: max-content;
+        width: 500px;
+        text-align: justify;
+        padding: 30px;
+        margin: 30px;
+        border-radius: 100px;
+    }
+    
+    .about2,
+    .about3,
+    .about4,
+    .about5,
+    .about6,
+    .about7,
+    .about8 {
+        border: 2px solid rgba(58, 40, 40, 0.37);
+        height: 250px;
+        width: 500px;
+        position: absolute;
+        top: auto;
+        left: 460px;
+        top: 50px;
+        right: auto;
+        text-align: justify;
+        padding: 30px 30px 30px 30px;
+        margin: 30px 30px 30px 30px;
+        border-radius: 100px;
+    }
+    
+    .text1 {
+        background-color: rgba(0, 255, 255, 0.295);
+    }
+    
+    p {
+        user-select: none;
+    }
+    
+    .alex {
+        border: 2px solid rgb(47, 0, 255);
+        position: absolute;
+        left: 150px;
+        top: 60px;
+    }
+    
+    .button1,
+    .button2,
+    .button3,
+    .button4,
+    .button5,
+    .button6 {
+        border: 2px solid rgb(47, 0, 255);
+        background-color: rgba(0, 238, 255, 0.726);
+        color: rgb(47, 0, 255);
+        position: absolute;
+        top: 230px;
+        left: 150px;
+        height: 70px;
+        width: 300px;
+    }
+    
+    .persons2 {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    .button2 {
+        position: absolute;
+        top: 230px;
+        left: 1100px;
+        height: 70px;
+        width: 120px;
+    }
+    
+    .button3 {
+        width: 120px;
+        position: absolute;
+        left: 200px;
+    }
+    
+    .button4 {
+        position: absolute;
+        left: 399px;
+        width: 120px;
+    }
+    
+    .button5 {
+        width: 120px;
+        position: absolute;
+        left: 800px;
+    }
+    
+    .button6 {
+        width: 120px;
+        position: absolute;
+        left: 1000px;
+    }
+    
+    .steave {
+        border: 2px solid rgb(47, 0, 255);
+        position: absolute;
+        left: 1100px;
+        top: 27px;
+        height: 200px;
+        width: 120px;
+    }
+    
+    .about3 {
+        background-color: rgba(0, 255, 255, 0.295);
+        height: 500px;
+    }
+    
+    .about4 {
+        background-color: rgba(0, 255, 255, 0.295);
+        height: 150px;
+    }
+    
+    .bobby {
+        height: 300px;
+        position: absolute;
+        left: 150px;
+        top: 300px;
+    }
+    
+    .about5 {
+        height: 8260px;
+        background-color: rgba(0, 255, 255, 0.295);
+    }
+    
+    hr {
+        height: 10px;
+        background-color: red;
+    }
+    
+    .cassa {
+        height: 300px;
+        width: 123px;
+        position: absolute;
+        left: 400px;
+        top: 300px;
+    }
+    
+    .about6 {
+        height: max-content;
+        background-color: rgba(0, 255, 255, 0.295);
+    }
+    
+    .cassa2 {
+        height: 300px;
+    }
+    
+    .hero {
+        width: 124px;
+        height: 300px;
+        position: absolute;
+        left: 800px;
+        top: 300px;
+    }
+    
+    .about7 {
+        height: 2240px;
+        background-color: rgba(0, 255, 255, 0.295);
+    }
+    
+    #img {
+        width: 500px;
+    }
+    
+    .about8 {
+        height: 2665px;
+        background-color: rgba(0, 255, 255, 0.295);
+    }
+    
+    .lucas {
+        height: 300px;
+        width: 124px;
+        position: absolute;
+        left: 1000px;
+        top: 300px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
